@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.background {
+    background-color: #00FFAB;
+    width: 100%;
+    height: 100vh; 
+}
+
+.img-container {
+    width: 20px;
+    height: 60px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.full-apple {
+    background-color: #7DCE13;
+    width: 250px;
+    height: 325px;
+}
+
+.apple-variety {
+    background-color: white;
+    width: 250px;
+    height: 80px;
+}
+
+.logo {
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    display: flex;
+    color: white;
+}
+
+.fa-heart-o {
+    float: left;
+    margin-left: 200px;
+}
+
+.full-apple-img img {
+   position: relative;
+   right: 65px;
+   top: 20px;
+   height: 300px;
+}
+
+.apple-variety ul li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+.apple-variety ul li img {
+    display: flex;
+    position: relative;
+    height: 45px;
+    top: 20px;
+    left: 35px;
+    border: 1px solid #E8F3D6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.apple-info {
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    left: 450px;
+    top: 75px;
+    width: 500px;
+    height: 450px;
+}
+
+.delicious-apple {
+    margin-left: 220px;
+    position: absolute;
+    top: 55px;
+}
+
+.delicious-apple h2 {
+    font-size: 20px;
+}
+
+.delicious-apple span {
+    font-size: 10px;
+    color: rgb(208, 205, 205);
+}
+
+.price {
+    margin-left: 300px;
+    position: absolute;
+    top: 110px;
+    left: -80px;
+    color: red;
+}
+
+.price .num {
+    font-size: 50px;
+}
+
+.apple-color span {
+    margin-left: 220px;
+    margin-top: 180px;
+    display: inline-block;
+    font-size: 10px;
+    color: grey; 
+}
+
+.apple-color ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 250px; 
+    margin-top: 10px;
+}
+
+.apple-color ul li img {
+    height: 30px;
+    margin: 5px;
+}
+
+.apple-color .border {
+    border: 1px solid grey;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+.apple-benefits {
+    margin-left: 230px;
+}
+
+.apple-benefits span {
+   display: inline-block;
+   margin-left: -10px;
+   color: grey;
+   font-size: 10px;
+}
+
+.apple-benefits ul {
+    margin-top: 10px;
+    font-size: 10px;
+    margin: 10px;
+}
+
+.apple-benefits ul li {
+    margin: 5px;
+    margin-left: 25px;
+}
+
+.apple-benefits .btn {
+    margin-top: 30px;
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-size: 10px;
+}
